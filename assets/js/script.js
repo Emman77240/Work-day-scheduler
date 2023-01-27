@@ -13,6 +13,7 @@ $(document).ready(function () {
         // Create time block
         let timeBlock = "<div class=" + myClass + "><div class=" + "text" + timeCount + "></div><textarea></textarea><button></button></div>";
         $(".container").append(timeBlock);
+        $("textarea").addClass("future");
         $(".text" + timeCount).addClass("hour");
         $("button").addClass("saveBtn");
         timeCount++;
@@ -37,5 +38,5 @@ $(document).ready(function () {
     $("#currentDay").text(nowMoment);
     displayDate.innerHTML = nowMoment;
     
-    
+   
   });
