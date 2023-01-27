@@ -31,6 +31,11 @@ $(document).ready(function () {
             newTime++;
         }
     }
-
-
+  
+    // Display date and time with Moment.js 
+    let nowMoment = moment().format("dddd, MMMM Do");
+    $("#currentDay").text(nowMoment);
+    displayDate.innerHTML = nowMoment;
+    
+    
   });
