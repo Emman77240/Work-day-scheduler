@@ -1,5 +1,5 @@
 # Work-day-scheduler
-![Site Image](assets/Images/page.jpg)
+![Site Image](assets/images/page.jpg)
 #
 This repository contains code for a work day scheduler. It was written with JavaScript while Moment.js was used to provide its current date and time values. The time blocks have different colors displayed according to the time of day and tasks alloted. A live demo can be found [here](https://emman77240.github.io/Work-day-scheduler/).
 
